@@ -1,7 +1,7 @@
-# pands-problem-set
-Data Analytics Problem Set 2019 - G.M.I.T.
+# Pands-problem-set
+# Data Analytics Problem Set 2019 - G.M.I.T.
 
-- Problem 1
+# - Problem 1
 
 In this problem I was asked to get the user to input an integer and output the sum of all numbers between zero and ten. 
 
@@ -22,7 +22,7 @@ I then wrote the following to help the user get the desired sum at the end of th
 if ans> 10: 
   print("Unfortunately this is not a positive integer")
 
-We calculated the the sum by entering the following formula: 
+I calculated the the sum by entering the following formula: 
 
   while i <= start:
 
@@ -30,10 +30,10 @@ We calculated the the sum by entering the following formula:
 
     i = i + 1
 
-We then entered print(ans) which gave us the sum of 55. 
+Then I entered print(ans) which gave us the sum of 55. 
 
 
-- Problem number 2
+#- Problem number 2
 
 This asked us to write a program which outputs whether or not today begins with the letter "T". 
 
@@ -54,3 +54,6 @@ To finish with I entered an else statement as follows to give me the answer:
 
 else:
     print("Unfortunately today does not begin with the letter T")
+
+
+# - Problem number 3

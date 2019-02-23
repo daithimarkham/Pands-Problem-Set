@@ -3,8 +3,8 @@
 # Write a program that asks the user to input any positive integer
 # And outputs the sum of all numbers between one and that number.
 
-int(input ("Please enter an integer: 10"))
-# Asks the user to input the positive integer number 10.
+int(input ("Please enter a positive integer: "))
+# Asks the user to input a positive integer number.
 
 start = 10
 # 10 is the number that is the end of the calculation.
@@ -15,12 +15,12 @@ i = 1
 
 if ans> 10: 
   print("Unfortunately this is not a positive integer")
-# This will help the user get the desired sum. Anything less than zero is an invlaid integer. 
+# This will help the user get the desired sum. Anything greater than 10, or less than zero is an invlaid integer. 
 
 while i <= start:
     ans = ans + i
     i = i + 1
 # While 'i' is less than or equal to start we keep adding the all the numbers until we reach 10. This is called a compound statement. 
-# Python recognises that while 'i' less than 10 it will keep adding (looping) until it has reached 10.
+# Python recognises that while 'i' less than 10 it will keep adding (while loop) until it has reached 10, or certain statements are true.
 print(ans)
 # This will give the user the answer. 
