@@ -7,7 +7,7 @@ In this problem I was asked to get the user to input an integer and output the s
 
 First I wrote a simple statement to get the user to input the integer 10, int(input ("Please enter an integer: 10"))
 
-Asks the user to input the positive integer number 10.
+Asks the user to input the positive integer number.
 
 I started the calculation with three simple elements.
 
@@ -57,3 +57,5 @@ else:
 
 
 # - Problem number 3
+
+
