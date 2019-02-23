@@ -29,3 +29,5 @@ We calculated the the sum by entering the following formula:
     ans = ans + i
 
     i = i + 1
+
+We then entered print(ans) which gave us the sum of 55. 
