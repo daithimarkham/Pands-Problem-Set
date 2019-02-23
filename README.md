@@ -1,11 +1,11 @@
 # Pands-problem-set
 # Data Analytics Problem Set 2019 - G.M.I.T.
 
-# - Problem 1
+# - Problem number 1
 
-In this problem I was asked to get the user to input an integer and output the sum of all numbers between zero and ten. 
+I was asked to get the user to input a positive integer and output the sum of all numbers between 0 and 10. 
 
-First I wrote a simple statement to get the user to input the integer 10, int(input ("Please enter an integer: 10"))
+First I wrote a simple statement to get the user to input the integer 10, int(input ("Please enter a positive integer: 10 "))
 
 Asks the user to input the positive integer number.
 
@@ -33,7 +33,7 @@ I calculated the the sum by entering the following formula:
 Then I entered print(ans) which gave us the sum of 55. 
 
 
-#- Problem number 2
+# - Problem number 2
 
 This asked us to write a program which outputs whether or not today begins with the letter "T". 
 
