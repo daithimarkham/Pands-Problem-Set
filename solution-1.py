@@ -3,6 +3,7 @@
 # Write a program that asks the user to input any positive integer
 # And outputs the sum of all numbers between one and that number.
 
+x = int(input ("Please enter an integer: 10"))
 
 start = 10
 # start asks the user to input the positive integer number 10.
@@ -18,6 +19,6 @@ if ans> 10:
 while i <= start:
     ans = ans + i
     i = i + 1
-# while i is less than or equal to start we kept adding the all the numbers until we reached 10
-# this is called a loop statement 
+# While 'i' is less than or equal to start we keep adding the all the numbers until we reach 10. This is called a compound statement. 
+# Python recognises that while 'i' less than 10 it will keep adding (looping) until it has reached 10.
 print(ans)
