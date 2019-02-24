@@ -3,11 +3,18 @@
 
 # - Problem number 1
 
-I was asked to get the user to input a positive integer and output the sum of all numbers between 0 and 10. 
-
-First I wrote a simple statement to get the user to input the integer 10, int(input ("Please enter a positive integer: 10 "))
+I was aked to get the user to input a positive integer of 10 and output the sum of all numbers between 0 and 10. 
+First I wrote a simple statement to get the user to input a poitive integer, int(input ("Please enter a positive integer: "))
 
 Asks the user to input the positive integer number.
+
+Then I wrote the following statement. 
+
+if i <= 0:
+  print("Unfortunately this is not a positive integer")
+
+This will prevent the user from entering anything other than a positive integer.
+
 
 I started the calculation with three simple elements.
 
