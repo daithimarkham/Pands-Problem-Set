@@ -3,7 +3,7 @@
 
 # - Problem number 1
 
-I was aked to get the user to input a positive integer of 10 and output the sum of all numbers between 0 and 10. 
+I was asked to get the user to input a positive integer of 10 and output the sum of all numbers between 0 and 10. 
 First I wrote a simple statement to get the user to input a poitive integer, int(input ("Please enter a positive integer: "))
 
 Asks the user to input the positive integer number.
@@ -23,11 +23,6 @@ I started the calculation with three simple elements.
   ans = 0 
 
   i = 1
-
-I then wrote the following to help the user get the desired sum at the end of the calculation. 
-
-if ans> 10: 
-  print("Unfortunately this is not a positive integer")
 
 I calculated the the sum by entering the following formula: 
 
