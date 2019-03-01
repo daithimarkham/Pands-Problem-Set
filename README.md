@@ -31,7 +31,7 @@ I used a compund statement here, using the while loop. While "i" was greater tha
 
 The last line, i = i -1. Whatever the user enters, subtract 1 and keep going until it reaches 0, addding all while looping.
 
-Then I entered print(ans) which gave us the sum of 55 if the user enters the positive integer of 10. 
+Then I entered print(ans) which gave us the sum of 55 if the user enters the positive integer of ten. 
 
 
 # - Problem number 2
