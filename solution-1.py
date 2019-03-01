@@ -3,25 +3,20 @@
 # Write a program that asks the user to input any positive integer
 # And outputs the sum of all numbers between one and that number.
 
-i = int(input ("Please enter a positive integer: "))
+i = int(input("Please enter a positive integer"))
 # Asks the user to input a positive integer number 
 
 if i <= 0: 
   print("Unfortunately this is not a positive integer")
 # This will prevent the user from entering anything other than a positive integer.
- 
-
-start = 10
-
-ans = 0
-
-i = 1
 
 
-while i <= start:
-  ans = ans + i
-  i = i + 1
-# While 'i' is less than or equal to start we keep adding the all the numbers until we reach 10. This is called a compound statement. 
-# Python recognises that while 'i' less than 10 it will keep adding (while loop) until it has reached 10, or certain statements are true.
-print(ans)
-# This will give the user the answer. 
+total = 0 
+
+while i > 0:
+    total = total + i
+    i = i - 1
+# While 'i' is greater than 0 add the total and the current value of "i" and overwrite the current total. 
+# This is called a compound statement using a while loop. 
+# i = i -1: If the user inputs the positive integer of 10, the program subtracts one from the current value and so on, down to 0.
+print(total)

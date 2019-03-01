@@ -16,23 +16,22 @@ if i <= 0:
 This will prevent the user from entering anything other than a positive integer.
 
 
-I started the calculation with three simple elements.
+I started the calculation with total 
+ 
+  total = 0
 
-  start = 10
-
-  ans = 0 
-
-  i = 1
 
 I calculated the the sum by entering the following formula: 
 
-  while i <= start:
+ while i > 0:
+    total = total + i
+    i = i - 1
 
-    ans = ans + i
+I used a compund statement here, using the while loop. While "i" was greater than o, add the total plus "i".
 
-    i = i + 1
+The last line, i = i -1. Whatever the user enters, subtract 1 and keep going until it reaches 0, addding all while looping.
 
-Then I entered print(ans) which gave us the sum of 55. 
+Then I entered print(ans) which gave us the sum of 55 if the user enters the positive integer of 10. 
 
 
 # - Problem number 2
