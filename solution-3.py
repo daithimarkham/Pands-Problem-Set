@@ -11,4 +11,4 @@ y = 12
 
 for a in range (lower, higher):
   if (a%x == 0) and (a%y !=0):
-    print (x)
+    print (ans)
