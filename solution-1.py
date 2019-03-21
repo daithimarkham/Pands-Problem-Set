@@ -10,8 +10,6 @@ i = int(input("Please enter a positive integer"))
 if i <= 0: 
   print("Unfortunately this is not a positive integer")
 
-
-
 total = 0 
 
 while i > 0:
