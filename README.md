@@ -61,7 +61,8 @@ else:
 
 In this problem I had to write a program that prints all the numbers between 1000 and 10,000 that are divisible by six but not by twelve. 
 
-I found information relating to this problem on The Python tutorial. 
+I found information relating to this problem on The Python tutorial.
+ 
 https://docs.python.org/3/tutorial/controlflow.html#the-range-function
 
 The program should start with 1002, 1014, 1026 etc and end up with 9990. 
