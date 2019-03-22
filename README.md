@@ -1,5 +1,9 @@
-# Pands-problem-set
+# David Markham
 # Data Analytics Problem Set 2019 - G.M.I.T.
+# Pands Problem Set
+# Lecturer: Ian McLoughlin
+
+In this problem set we were asked to set out and achieve a number of problems over ten weeks. Below are a list of all the problems with a detailed analysis of how I achieved the outcome of each problem. 
 
 # - Problem number 1
 
@@ -88,7 +92,7 @@ n = int(input("Please input a positive integer"))
 I then followed up with an if statement to notify the user if they had not entered a positive integer: if n < = 0:
                print("Unfortunately this is not a positive integer")
 
-I then entered the Collatz conjecture. "The Collatz conjecture is a conjecture that a particular sequence always reaches 1. The sequence is defined as: start with a number n. The next number in the sequence is n/2 if n is even and 3n + 1 if n is odd." 
+I then entered the Collatz conjecture. "The Collatz conjecture is a conjecture that a particular sequence always reaches 1. The sequence is defined as: start with a number n. The next number in the sequence is n/2 if n is even and 3*n + 1 if n is odd." 
 https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/ 
 
 I then created a while loop which which ensured the loop was ran from the number the user entered until number one, followed by an if statement. This was as follows;
@@ -105,6 +109,38 @@ Then I wrote the following to print out the answer at the end of the program.
 print("Sequence: ", end= '')
 
 That was the solution to number four. 
+
+# - Problem 5 
+
+Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime. 
+
+Firstly I asked the user to input a positive integer, with a simple statement:
+n = int(input("Please enter a positive integer: ")) This will help the user to input a positive integer.
+if n < 1:
+    print("Unfortunately this is not a positive integer")
+If the user put int the wrong integer, this will notify them. 
+
+
+This checks for the factors, does the modulus give you a remainder when divided by the input. 
+And states whether or not it is a prime number when it does the calculation. 
+This is achieved by if and else statements.
+
+
+Below are the factors in how how the calculation was done. Its states that the input has to be greater than one, and in the range from two to the input, and determines if there is a remainder when n (input) is divided by the modulus.  
+
+if n > 1:
+   for i in range(2,n):
+       if (n % i) == 0:
+
+ This will state if the number is a composite number, which has factors other than one and itself;
+           print(n,"is not a prime number")
+           break 
+
+The break statement above is when the loop is terminated by a break statement. This is exemplified by the following loop, which searches for prime numbers. https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops 
+
+   else:
+       print(n,"is a prime number")
+This will state if the integer entered is a prime number or not. 
 
 
 
