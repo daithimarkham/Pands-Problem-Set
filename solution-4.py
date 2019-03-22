@@ -8,22 +8,25 @@
 
 
 # Ask the user to input a positive integer. 
-n = int( input("Please input a positive integer "))
-# If the user inputs anything other than a positive integer we type the following.
-# Helps the user to put in the correct integer and quits the program.
-if n <= 0:
-    print("Unfortunately this is not an integer")
-    quit()
+n = int(input("Please input a positive integer: "))
 # "Def Collatz" checks if the numbers are odd or even and performs those calculations.
 def collatz(n):
+
 # The loop is repeated until the number reaches 1.
-    while n !=1:
-# If the number is divisible by two print the answer. 
-        if n % 2 == 0:
-         n = n // 2
-         print(n)
+    while n > 1:
+# This function prints all the values listed from the number the user enters to the end.
+        print(n, end =' ') 
+        if (n % 2): 
 # If the result is not even, the answer is multiplied by three and one added on to it. 
+            n = 3 * n + 1
+#If the number is even divide by two until you reach the number one. 
         else:
-            n = n * 3 + 1
-        print(n) 
+            n = n//2
+    print(1, end='')
+
+# This will print the sequence of the calculation, down as far as the end number such as one.
+print("Sequence: ", end='')
+collatz(n) 
+
+
 

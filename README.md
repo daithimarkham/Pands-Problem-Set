@@ -77,3 +77,29 @@ This stated for all the numbers in the range that could be divided by six but no
 
 Finally I typed print(i), which gave all the numbers that could be divided by six in the range. 
 
+# - Problem number 4 
+
+This involved writing a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
+At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
+
+
+Firstly I entered a statement which helps the user to input the appropriate integer, such as, 
+n = int(input("Please input a positive integer"))
+I then followed up with an if statement to notify the user if they had not entered a positive integer: if n < = 0:
+               print("Unfortunately this is not a positive integer")
+
+I then entered the Collatz conjecture. "The Collatz conjecture is a conjecture that a particular sequence always reaches 1. The sequence is defined as: start with a number n. The next number in the sequence is n/2 if n is even and 3n + 1 if n is odd." 
+https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/ 
+
+I then created a while loop which which ensured the loop was ran until the calculation reached number one. This was as follows, while n ! = 1: 
+Next I entered the if function, which updated each next step of the calculation. If the number was divisible by two enter the answer, if not, multiply the answer by three and add one. 
+if n % 2:
+  if n % 2 == 0:
+         n = n // 2
+         print(n)
+Then I entered an else statement which outputs the sum if not an even number calculated as follows:
+         else:
+            n = n * 3 + 1
+        print(n) 
+  
+
