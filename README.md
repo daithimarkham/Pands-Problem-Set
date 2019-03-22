@@ -93,7 +93,7 @@ I then followed up with an if statement to notify the user if they had not enter
                print("Unfortunately this is not a positive integer")
 
 I then entered the Collatz conjecture. "The Collatz conjecture is a conjecture that a particular sequence always reaches 1. The sequence is defined as: start with a number n. The next number in the sequence is n/2 if n is even and 3*n + 1 if n is odd." 
-https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/ 
+Python Program to test Collatz Conjecture for a Given Number, viewed on 2019-03-21 https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/ 
 
 I then created a while loop which which ensured the loop was ran from the number the user entered until number one, followed by an if statement. This was as follows;
     while n > 1:
@@ -136,11 +136,13 @@ if n > 1:
            print(n,"is not a prime number")
            break 
 
-The break statement above is when the loop is terminated by a break statement. This is exemplified by the following loop, which searches for prime numbers. https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops 
+The break statement above is when the loop is terminated by a break statement. This is exemplified by the following loop, which searches for prime numbers. Python Tutorial, break and continue statements. https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops 
 
    else:
        print(n,"is a prime number")
 This will state if the integer entered is a prime number or not. 
+
+Python by Programize, Program to check prime number. Viewed on 2013-03-23 https://www.programiz.com/python-programming/examples/prime-number
 
 
 
