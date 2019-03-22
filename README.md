@@ -136,7 +136,7 @@ if n > 1:
            print(n,"is not a prime number")
            break 
 
-The break statement above is when the loop is terminated by a break statement. This is exemplified by the following loop, which searches for prime numbers. Python Tutorial, break and continue statements. https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops 
+The break statement above is when the loop is terminated by a break statement. This is exemplified by the following loop, which searches for prime numbers. Python Tutorial, break and continue statements, viewed on 2019-03-23 https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops 
 
    else:
        print(n,"is a prime number")
