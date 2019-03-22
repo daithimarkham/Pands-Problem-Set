@@ -65,7 +65,7 @@ else:
 
 In this problem I had to write a program that prints all the numbers between 1000 and 10,000 that are divisible by six but not by twelve. 
 
-I found information relating to this problem on The Python tutorial.
+I found information relating to this problem on The Python tutorial, viewed on the 2019-02-21
  
 https://docs.python.org/3/tutorial/controlflow.html#the-range-function
 
@@ -136,13 +136,13 @@ if n > 1:
            print(n,"is not a prime number")
            break 
 
-The break statement above is when the loop is terminated by a break statement. This is exemplified by the following loop, which searches for prime numbers. Python Tutorial, break and continue statements, viewed on 2019-03-23 https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops 
+The break statement above is when the loop is terminated by a break statement. This is exemplified by the following loop, which searches for prime numbers. Python Tutorial, break and continue statements, viewed on 2019-03-22 https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops 
 
    else:
        print(n,"is a prime number")
 This will state if the integer entered is a prime number or not. 
 
-Python by Programize, Program to check prime number. Viewed on 2013-03-23 https://www.programiz.com/python-programming/examples/prime-number
+Python by Programize, Program to check prime number. Viewed on 2013-03-22 https://www.programiz.com/python-programming/examples/prime-number
 
 
 
