@@ -91,15 +91,23 @@ I then followed up with an if statement to notify the user if they had not enter
 I then entered the Collatz conjecture. "The Collatz conjecture is a conjecture that a particular sequence always reaches 1. The sequence is defined as: start with a number n. The next number in the sequence is n/2 if n is even and 3n + 1 if n is odd." 
 https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/ 
 
-I then created a while loop which which ensured the loop was ran until the calculation reached number one. This was as follows, while n ! = 1: 
-Next I entered the if function, which updated each next step of the calculation. If the number was divisible by two enter the answer, if not, multiply the answer by three and add one. 
-if n % 2:
-  if n % 2 == 0:
-         n = n // 2
-         print(n)
-Then I entered an else statement which outputs the sum if not an even number calculated as follows:
-         else:
-            n = n * 3 + 1
-        print(n) 
+I then created a while loop which which ensured the loop was ran from the number the user entered until number one, followed by an if statement. This was as follows;
+    while n > 1:
+      print(n, end = ' ')
+      if (n % 2): The modulus sign determines if there is a remainder. 
+          n = n * 3 + 1 This calculation was done if the number was not even. The answer was multiplied by three and one was added on to it. 
+Next I entered an else statement which instructed Python what to do if the number was even. If it was divisible by two, do the calculation until it reaches number one. 
+      else: 
+          n = n // 2
+          print(1, end= '') 
+
+Then I wrote the following to print out the answer at the end of the program. 
+print("Sequence: ", end= '')
+
+That was the solution to number four. 
+
+
+
+           
   
 
