@@ -110,7 +110,7 @@ print("Sequence: ", end= '')
 
 That was the solution to number four. 
 
-# - Problem 5 
+# - Problem number 5 
 
 Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime. 
 
