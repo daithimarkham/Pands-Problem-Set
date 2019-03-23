@@ -145,6 +145,26 @@ This will state if the integer entered is a prime number or not.
 Python by Programize, Program to check prime number. Viewed on 2013-03-22 https://www.programiz.com/python-programming/examples/prime-number
 
 
+# - Problem number 6 
+
+Write a program that takes a user input string and outputs every second word.
+
+First of all write a simple statement to get the user to enter any string. This is done by;
+sentence=(input("Please enter a sentence: "))
+
+Next I split the sentence into spaces and output every second word using the splice function. So whatever the user enters, every second word will be displayed. This was done by the following; 
+
+words = sentence.split(' ')
+print(words[::2]
+
+I found information which enabled me to complete this on the Python Tutorial, and also on Stackflow. 
+
+Ref: Python Tutorial, viewed on 2019-03-23. https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str
+
+# - Problem number 7 
+
+
+
 
            
   
