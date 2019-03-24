@@ -19,4 +19,4 @@ n_sqrt = n ** 0.5
 print('The square root of %0.1f is %0.1f'%(n ,n_sqrt))
 
 
-# Ref; viewed on 2019-03-24,  https://www.programiz.com/python-programming/examples/square-root
+# https://www.programiz.com/python-programming/examples/square-root
