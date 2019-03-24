@@ -12,6 +12,7 @@ n = float(input("Please enter a positive floating point number: "))
 # This will ensure the user puts in a positive floating point number.
 while n <= 0:
     print("Unfortunately this is not a positive floating integer")
+    
 # This is the floating point computation to get the square root of the user input.
 n_sqrt = n ** 0.5
 # This will print the square root, with one floating point. (%.1f) 

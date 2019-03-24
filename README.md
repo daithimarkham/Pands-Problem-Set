@@ -163,6 +163,28 @@ Ref: Python Tutorial, viewed on 2019-03-23. https://docs.python.org/3/library/st
 
 # - Problem number 7 
 
+Write a program that that takes a positive floating point number as input and outputs
+an approximation of its square root.
+
+I started off with importing the maths function on Python. This is 'import math'.
+
+Then I asked the user to please enter a floating positive integer. 
+ n = float(input("Please enter a positive floating point number: ")). 
+
+Next I wrote a simple while statement to to ensure the user inputs a positive floating point number. This was as follows,  while n <= 0:
+    print("Unfortunately this is not a positive floating integer"). 
+
+Then I used the the floating point computation to get the square root of the user input.
+n_sqrt = n ** 0.5
+
+Finally I entered print the square root, with one floating point. (%.1f) 
+print('The square root of %0.1f is %0.1f'%(n ,n_sqrt))
+
+That was my solution to problem number 7. I found information online and on The Python tutorial to help me. 
+
+# Ref; viewed on 2019-03-24,  https://www.programiz.com/python-programming/examples/square-root
+# Ref; viewed on 2019-03-24, https://docs.python.org/3/search.html?q=how+to+get+square+root&check_keywords=yes&area=default 
+
 
 
 
