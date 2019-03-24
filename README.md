@@ -182,8 +182,8 @@ print('The square root of %0.1f is %0.1f'%(n ,n_sqrt))
 
 That was my solution to problem number 7. I found information online and on The Python tutorial to help me. 
 
-# Ref; viewed on 2019-03-24,  https://www.programiz.com/python-programming/examples/square-root
-# Ref; viewed on 2019-03-24, https://docs.python.org/3/search.html?q=how+to+get+square+root&check_keywords=yes&area=default 
+Ref; viewed on 2019-03-24,  https://www.programiz.com/python-programming/examples/square-root
+Ref; viewed on 2019-03-24, https://docs.python.org/3/search.html?q=how+to+get+square+root&check_keywords=yes&area=default 
 
 
 
