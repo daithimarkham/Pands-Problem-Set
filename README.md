@@ -186,6 +186,11 @@ Ref; viewed on 2019-03-24,  https://www.programiz.com/python-programming/example
 Ref; viewed on 2019-03-24, https://docs.python.org/3/search.html?q=how+to+get+square+root&check_keywords=yes&area=default 
 
 
+# - Problem number 8 
+
+Write a program that outputs today’s date and time in the format, Monday, January 10th 2019 at 1:15pm.
+
+
 
 
            
