@@ -65,9 +65,7 @@ else:
 
 In this problem I had to write a program that prints all the numbers between 1000 and 10,000 that are divisible by six but not by twelve. 
 
-I found information relating to this problem on The Python tutorial, viewed on the 2019-02-21
- 
-https://docs.python.org/3/tutorial/controlflow.html#the-range-function
+I found information relating to this problem on The Python tutorial. 
 
 The program should start with 1002, 1014, 1026 etc and end up with 9990. 
 
@@ -81,6 +79,8 @@ This stated for all the numbers in the range that could be divided by six but no
 
 Finally I typed print(i), which gave all the numbers that could be divided by six in the range. 
 
+Ref: The Python tutorial, viewed on the 2019-02-21, https://docs.python.org/3/tutorial/controlflow.html#the-range-function
+
 # - Problem number 4 
 
 This involved writing a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
@@ -93,7 +93,7 @@ I then followed up with an if statement to notify the user if they had not enter
                print("Unfortunately this is not a positive integer")
 
 I then entered the Collatz conjecture. "The Collatz conjecture is a conjecture that a particular sequence always reaches 1. The sequence is defined as: start with a number n. The next number in the sequence is n/2 if n is even and 3*n + 1 if n is odd." 
-Python Program to test Collatz Conjecture for a Given Number, viewed on 2019-03-21 https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/ 
+
 
 I then created a while loop which which ensured the loop was ran from the number the user entered until number one, followed by an if statement. This was as follows;
     while n > 1:
@@ -109,6 +109,8 @@ Then I wrote the following to print out the answer at the end of the program.
 print("Sequence: ", end= '')
 
 That was the solution to number four. 
+
+Ref: Python Program to test Collatz Conjecture for a Given Number, viewed on 2019-03-21 https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/ 
 
 # - Problem number 5 
 
@@ -136,13 +138,14 @@ if n > 1:
            print(n,"is not a prime number")
            break 
 
-The break statement above is when the loop is terminated by a break statement. This is exemplified by the following loop, which searches for prime numbers. Python Tutorial, break and continue statements, viewed on 2019-03-22 https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops 
+The break statement above is when the loop is terminated by a break statement. This is exemplified by the following loop, which searches for prime numbers.
+Ref: Python Tutorial, break and continue statements, viewed on 2019-03-22 https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops 
 
    else:
        print(n,"is a prime number")
 This will state if the integer entered is a prime number or not. 
 
-Python by Programize, Program to check prime number. Viewed on 2013-03-22 https://www.programiz.com/python-programming/examples/prime-number
+Ref: Python by Programize, Program to check prime number. Viewed on 2013-03-22 https://www.programiz.com/python-programming/examples/prime-number
 
 
 # - Problem number 6 
@@ -189,6 +192,16 @@ Ref; viewed on 2019-03-24, https://docs.python.org/3/search.html?q=how+to+get+sq
 # - Problem number 8 
 
 Write a program that outputs today’s date and time in the format, Monday, January 10th 2019 at 1:15pm.
+
+First I wrote a function built into Python to import today's date and time. This was done by: import datetime.
+
+Next I entered a statement which outputs today's date and time: now = datetime.datetime.now() 
+
+I then done some research online which enabled me to put in the required code to output the input from the user, in the date and time format required to do this problem. This is as follows: 
+print (now.strftime("%A %dth %B %Y %H:%Mpm")) 
+
+Ref: wEresource, viewed on 2019-03-25, # https://www.w3resource.com/python-exercises/date-time-exercise/python-date-time-exercise-1.php  
+Ref: Python Tutorial, viewed on 2019-03-25, https://docs.python.org/3/library/datetime.html?highlight=how%20import%20date 
 
 
 
