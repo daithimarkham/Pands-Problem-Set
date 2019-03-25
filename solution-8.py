@@ -11,7 +11,7 @@ now = datetime.datetime.now()
 # I then done some research online to help me get python code for different date formats.
 # I then entered print todays date and time.
 # This will output whatever the user enters in the required date/time format required in the problem.
-print (now.strftime("%A %B %Y %H:%Mpm"))
+print (now.strftime("%A %dth %B %Y %H:%Mpm"))
 
 
 
