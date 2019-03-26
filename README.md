@@ -221,6 +221,38 @@ Ref: Python Tutorial, viewed on 2019-03-26, https://docs.python.org/3/library/da
 Ref: Stackoverflow, viewed on 209-03-26, https://stackoverflow.com/questions/3644417/python-format-datetime-with-st-nd-rd-th-english-ordinal-suffix-like 
 
 
+# - Problem number 9 
+
+ Write a program that reads in a text file and outputs every second line. 
+ The program should take the filename from an argument on the command line.
+
+For this problem I got information from lectures in week week seven, The Python Tutorial and from Stack Overflow. 
+
+I started off using a statement which asks the user to input the file which data was required to be extracted from. 
+
+user = input("Please open file: ") 
+
+Then I found help online how to enter code to output every second line in a text file which the user enters. 
+This I found on Stack Overflow. I entered code which made the program print every even line in the file that the user enters, and print it out.
+
+I created a text file mobydick.txt, with the text from the first paragraph to ensure it was the correct data being extracted, which was required in this problem. The output was correct. 
+
+This was the problem solved for number nine. 
+
+with open(user, 'r') as f:
+    count = 0
+    for line in f:
+        count+=1
+        if count % 2 == 0:
+            print(line) 
+
+I ended with f.close() which is good practice to end a program when you've finished. 
+
+Ref: The Python Tutorial, viewed on 2019-03-26, https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+
+Ref: Stack Overflow, viewed on 2019-03-26, https://stackoverflow.com/questions/30551945/how-do-i-get-python-to-read-only-every-other-line-from-a-file-that-contains-a-po 
+
+
 
 
            
