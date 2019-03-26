@@ -197,7 +197,7 @@ First I wrote a function built into Python to import today's date and time. This
 
 Next I entered a statement which outputs today's date and time: now = datetime.datetime.now() 
 
-I was having trouble writing code for the st, nd, rd and th. I searched a number of sites where I found information and code which enabled me to write code to output this. I wrote an if if, elif and else statements to achieve this. This is as follows;
+I was having trouble writing code for the st, nd, rd and th. I searched a number of sites where I found information and code which enabled me to write code to output this. I wrote an if, elif and else statements to achieve this. This is as follows;
 
 day_month = int(now.strftime("%d"))
 if day_month in (1,2,3):
@@ -213,8 +213,11 @@ I then done some research online in The Python tutorial, which enabled me to put
 print (now.strftime("%A %dth %B %Y %H:%Mpm")) Which prints out: Tuesday March 26th 2019 10:29 am
 
 Ref: wEresource, viewed on 2019-03-25, # https://www.w3resource.com/python-exercises/date-time-exercise/python-date-time-exercise-1.php  
+
 Ref: Python Tutorial, viewed on 2019-03-25, https://docs.python.org/3/library/datetime.html?highlight=how%20import%20date 
+
 Ref: Python Tutorial, viewed on 2019-03-26, https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior 
+
 Ref: Stackoverflow, viewed on 209-03-26, https://stackoverflow.com/questions/3644417/python-format-datetime-with-st-nd-rd-th-english-ordinal-suffix-like 
 
 
