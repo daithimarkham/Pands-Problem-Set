@@ -4,8 +4,21 @@
 # Write a program that reads in a text file and outputs every second line. 
 # The program should take the filename from an argument on the command line.
 
-userinput = input("Please open text file: ")
+f = open('mobydick.txt', 'r')
 
-with open('userinput',  'r') as f:
-    for l in f:
-        print(2)
+s = f.read()
+
+print(s)
+with open('mobydick.txt', 'r') as f:
+    count = 0
+    for line in f:
+        count+=1
+        if count % 2 == 0:
+            print(line) 
+
+f.close()
+
+
+
+
+# https://stackoverflow.com/questions/30551945/how-do-i-get-python-to-read-only-every-other-line-from-a-file-that-contains-a-po
